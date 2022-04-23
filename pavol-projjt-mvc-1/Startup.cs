@@ -68,6 +68,8 @@ namespace pavol_projjt_mvc_1
                 }
                 else {   await next(); }
             });
+
+
             //app.Use(async (context, next) =>
             //{
             //     if (context.Request.Path.Value.StartsWith("/org"))
