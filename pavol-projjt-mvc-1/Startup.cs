@@ -79,7 +79,7 @@ namespace pavol_projjt_mvc_1
             //    else {   await next(); }
             //});
 
-            
+            // now this one is
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
